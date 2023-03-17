@@ -1,0 +1,56 @@
+/*Your styles*/
+
+/*
+Those classes will be edited at runtime with values specified
+by the settings of the CC application
+*/
+.hostFontColor{}
+.hostFontFamily{}
+.hostFontSize{}
+
+/*font family, color and size*/
+.hostFont{}
+/*background color*/
+.hostBgd{}
+/*lighter background color*/
+.hostBgdLight{}
+/*darker background color*/
+.hostBgdDark{}
+/*background color and font*/
+.hostElt{}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.version{
+  position: relative;
+  margin-left: 5px;
+  font-size: 7px;
+}
+.getImgBlock{
+    position: relative;
+    margin-top:5px;
+    margin-left: 5px;
+    width: 167px;
+    height: 30px;
+    /* background: #ffffff; */
+}
+.getImgBtn{
+    position: relative;
+    text-align: center;
+    width: 167px;
+    height: 30px;
+}
+.getImgBtn p{
+    position: relative;
+    font-weight:700;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
